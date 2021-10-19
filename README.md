@@ -10,8 +10,10 @@ bla bla
   - adin
   - dwie
   - trie
-<h1> hello
-<h3> world
+
+[comment]: <> (<h1> hello)
+
+[comment]: <> (<h3> world)
   
   jabłko | gruszka
   ------ | -------
@@ -22,4 +24,4 @@ bla bla
   ```
 123
  
-![zdj dog](/wdi/labolatorium_1/dog-niemiecki-768x512.jpg)
+![](laboratorium_1/dog-niemiecki-768x512.jpg)
