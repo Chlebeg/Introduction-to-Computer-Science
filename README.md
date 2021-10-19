@@ -22,4 +22,4 @@ bla bla
   ```
 123
  
-![zdjęcie psa](dog-niemiecki-768x512.jpg)
+!(/labolatorium_1/dog-niemiecki-768x512.jpg)
