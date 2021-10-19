@@ -25,3 +25,5 @@ bla bla
 123
  
 ![](laboratorium_1/dog-niemiecki-768x512.jpg)
+
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpl.wiktionary.org%2Fwiki%2Fkot&psig=AOvVaw15l5mD30iPJh0wDS6O1aT7&ust=1634750318501000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCNjj99H91vMCFQAAAAAdAAAAABAE)
