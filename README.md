@@ -1,5 +1,6 @@
 # wdi
 Ćwiczenia z WDI
+
 bla bla
 
 1. raz
@@ -15,3 +16,7 @@ bla bla
   jabłko | gruszka
   ------ | -------
   smaczna | niesmaczna
+
+  ```python
+  print(Hello World!)
+  ```
