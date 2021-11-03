@@ -36,6 +36,7 @@ while x == 'tak':
 
     else:
         print('Zły PIN')
+
     x = input('Czy chcesz wykonać kolejną operację?[tak/nie]:')
 
 print('Koniec operacji')

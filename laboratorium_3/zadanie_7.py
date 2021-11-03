@@ -1,7 +1,7 @@
 val1 = int(input("Wpisz pierwszą liczbę:"))
 val2 = int(input("Wpisz drugą liczbę:"))
 
-'''Zakładamy że urzytkownik podaje przedział czyli val1 > val2'''
+#Zakładamy że urzytkownik podaje przedział czyli val1 > val2
 
 zakres = val2 - val1 + 1
 
