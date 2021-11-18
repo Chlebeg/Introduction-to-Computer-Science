@@ -21,7 +21,7 @@ while a == 1:
                 print('liczba jest naturalna')
                 flag = False
             else:
-                print('liczba nie jest naturalna')
+                raise ValueError
         except ValueError:
             print('liczba nie jest naturalna')
     print('Liczby 2,3,5-kowe z zakrestu to: 1')
