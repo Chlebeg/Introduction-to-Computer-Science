@@ -24,10 +24,12 @@ while a == 1:
                 print('liczba nie jest naturalna')
         except ValueError:
             print('liczba nie jest naturalna')
+    print('Liczby 2,3,5-kowe z zakrestu to: 1')
     #Część programu w którym wyszukujemy liczby zgodne z założeniem
     #Program sprawdza każdą liczbę pomiędzy 2 a N (wraz z N)
     for i in range(2, N + 1):
         k = 2
+        l = i
         #Każda liczba z zakresu jest dzielona przez 2,3,4 (nie jest to potrzebne ale nie jestem pewien jak to ominąć),5
         #tak długo jak jest to możliwe
         #Gdy liczba nie jest możliwa do podzielenia kończy się pętla dla danej liczby
@@ -39,7 +41,14 @@ while a == 1:
                 k += 1
         if i == 1 and k == 6:
             suma += 1
+            print(l)
 
     print('W podanym przedziale występuje ',suma,' takich liczb')
     flag = True
     suma = 1
+
+# Przypadki testowe :
+# N = 20  suma = 14
+# N = 50  suma = 24
+# N = 500  suma = 67
+# N = 1 000 000  suma = 507
