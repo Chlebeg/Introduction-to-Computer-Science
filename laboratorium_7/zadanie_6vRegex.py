@@ -4,7 +4,7 @@ a = str("yes")
 list2 = []
 while a == "yes":
     while flag == True:
-        s = str(input("Write the message: "))
+        s = input("Write the message: ")
         try:
             substring = re.search('0(.+?)0', s).group(1)
             flag = False
