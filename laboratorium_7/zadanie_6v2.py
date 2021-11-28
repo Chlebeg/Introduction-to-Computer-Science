@@ -5,6 +5,7 @@
 flag = True
 a = str("yes")
 list_substring = []
+final_list_sub=[]
 list_value = []
 check = True
 
@@ -13,24 +14,31 @@ while a == "yes":
         try:
             fullcode = input("Write the message: ")
             while fullcode != None:
-                print(fullcode)
+                #print(fullcode)
                 substring_start = fullcode.index("0")
-                print(substring_start)
+                #print(substring_start)
                 halfcode = fullcode[(substring_start + 1):]
-                print(halfcode)
+                #print(halfcode)
                 substring_end = halfcode.index("0")
-                print(substring_end)
+                #print(substring_end)
                 substring = halfcode[:(substring_end)]
-                print(substring)
+                #print(substring)
                 list_substring.append(substring)
                 fullcode = fullcode[(substring_end + 1):]
-                print(list_substring)
+                #print(list_substring)
 
         except ValueError:
             flag = False
 
+    if list_substring == None:
+        print("No matches Found :(")
+        break
 
     for i in list_substring:
+        final_list_sub += i
+        print(final_list_sub)
+
+    for i in final_list_sub:
         value = ord(i)
         print(i,value)
         list_value.append(value)
