@@ -37,14 +37,18 @@ def is_sorted():
                     return False
 
             except ValueError:
-                return "gziby"
+                return "something"
+
             except IndexError:
-                n += 1
-                m = 10000
+                if len(elements[n]) <= len(elements[n+1]):
+                    n += 1
+                    m = 10000
+                else:
+                    return False
     return True
 
-question = "yes"
-while question == "yes":
+question = "y"
+while question == "y":
     a = is_sorted()
     if a == True:
         print("Your list is sorted :)")
@@ -52,7 +56,7 @@ while question == "yes":
         print("Your list isn't sorted :(")
     else:
         print("Used letters are out of alphabet >:(")
-    question = input("Do you wanna try again?: [yes/no] ")
+    question = input("Do you wanna try again?: [y/n] ")
 
 #PRZYPADKI TESTOWE
 # alphabet: abcdefghijklmnopqrstuvwxyz
@@ -61,7 +65,7 @@ while question == "yes":
 # def, abd, cbc, fgh --> False
 # abc, abc, abc --> True
 # aa, aab --> True
-# aab, aa, aaa --> True / A powinno być FALSE!! (Chyba?)
+# aab, aa, aaa --> False
 
 # alphabet:zyxwvutsrqponmlkjihgfedcba
 # apple, orange, pear --> False
