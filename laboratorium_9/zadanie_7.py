@@ -15,7 +15,7 @@ def grid_maker(size):
         print("Your row",row)
     return number_grid
 
-def sudoku(size):
+def line_checker(size):
     grid = grid_maker(size)
     #grid =
     print(grid)
@@ -42,7 +42,7 @@ question = "y"
 while question == "y":
     try:
         size = int(input("What size do you want? (I only accept integers :> ) "))
-        a = sudoku(size)
+        a = line_checker(size)
         if a == True:
             print("True")
         elif a == False:
