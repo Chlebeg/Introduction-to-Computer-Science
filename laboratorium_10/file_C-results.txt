@@ -1,0 +1,44 @@
+file_A:
+raz dwa trzy cztery pięć sześć siedem
+jabłko gruszka banan pomarańcz melon arbuz kiwi
+drzewo krzesło deska bal gałąź tartak siekiera
+haha hihi hoho hehe
+
+file_B:
+dwa trzy pięć sześć siedem raz1 bal1
+jabłko1 gruszka banan pomarańcz1 melon arbuz kiwi
+krzesło drzewo1 deska cztery1 gałąź tartak siekiera
+
+file_C:
+action [+]
+result:
+raz dwa trzy cztery pięć sześć siedem
+raz1 bal1 jabłko1 pomarańcz1 drzewo1 cztery1 jabłko
+gruszka banan pomarańcz melon arbuz kiwi drzewo
+krzesło deska bal gałąź tartak siekiera haha
+hihi hoho hehe dwa trzy pięć sześć
+siedem gruszka banan melon arbuz kiwi krzesło
+deska gałąź tartak siekiera
+
+action [-]
+result:
+raz cztery jabłko pomarańcz drzewo bal haha
+hihi hoho hehe
+
+action [*]
+result:
+arbuz arbuz arbuz arbuz arbuz arbuz arbuz
+banan banan banan banan banan banan banan
+deska deska deska deska deska deska deska
+dwa dwa dwa dwa dwa dwa dwa
+gałąź gałąź gałąź gałąź gałąź gałąź gałąź
+gruszka gruszka gruszka gruszka gruszka gruszka gruszka
+kiwi kiwi kiwi kiwi kiwi kiwi kiwi
+krzesło krzesło krzesło krzesło krzesło krzesło krzesło
+melon melon melon melon melon melon melon
+pięć pięć pięć pięć pięć pięć pięć
+siedem siedem siedem siedem siedem siedem siedem
+siekiera siekiera siekiera siekiera siekiera siekiera siekiera
+sześć sześć sześć sześć sześć sześć sześć
+tartak tartak tartak tartak tartak tartak tartak
+trzy trzy trzy trzy trzy trzy trzy
