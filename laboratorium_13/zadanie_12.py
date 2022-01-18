@@ -19,6 +19,7 @@ def solve_Hanoi_Tower(size, A, B, C): # A = skąd przesuwamy krążek, B = doką
         print("Przesuń krążek", size, "z", A, "do", C)
         solve_Hanoi_Tower(size-1, B, A, C)
 
-solve_Hanoi_Tower(3,"A","B","C")
-print(" ")
-solve_Hanoi_Tower(4,"A","B","C")
+if __name__ == '__main__':
+    solve_Hanoi_Tower(3,"A","B","C")
+    print(" ")
+    solve_Hanoi_Tower(5,"A","B","C")

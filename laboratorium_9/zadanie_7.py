@@ -15,10 +15,9 @@ def grid_maker(size):
         print("Your row",row)
     return number_grid
 
-def line_checker(size):
-    grid = grid_maker(size)
-    #grid =
-    print(grid)
+def line_checker(size,grid):
+    #grid = grid_maker(size)
+    #print(grid)
     value = 0
     for row in grid:        #Sprawdzamy elementy w wierszach
         flag = False
@@ -38,20 +37,21 @@ def line_checker(size):
         value += 1
     return True
 
-question = "y"
-while question == "y":
-    try:
-        size = int(input("What size do you want? (I only accept integers :> ) "))
-        a = line_checker(size)
-        if a == True:
-            print("True")
-        elif a == False:
-            print("False")
-        else:
-            print("Dunno something is wrong")
-    except ValueError:
-        print("Give me an integer!!")
-    question = input("Do you wanna try again?: [y/n] ")
+if __name__ == '__main__':
+    question = "y"
+    while question == "y":
+        try:
+            size = int(input("What size do you want? (I only accept integers :> ) "))
+            a = line_checker(size)
+            if a == True:
+                print("True")
+            elif a == False:
+                print("False")
+            else:
+                print("Dunno something is wrong")
+        except ValueError:
+            print("Give me an integer!!")
+        question = input("Do you wanna try again?: [y/n] ")
 
 #Szukamy czy każdy wiersz ma 0
 #Szukamy czy każda kolumna ma 0
